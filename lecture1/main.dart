@@ -1,7 +1,6 @@
 import 'dart:io';
 import 'dart:convert';
-import 'package:http/http.dart' as http;
-Future<void> main() async{
+void main() {
   DateTime now = DateTime.now();
 
   stdout.write("Name: ");
